@@ -1,3 +1,8 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/api/proxy/run",
+      "destination": "http://54.197.28.28:5009/api/v1/run"
+    }
+  ]
 }
